@@ -2,7 +2,7 @@
 
 # MMS全周映像・LiDAR点群による ダッシュカムのレンズキャリブレーション
 
-*キャリブレーションボードを使用せずにMMS全周映像とLiDAR点群を使用してダッシュカムのレンズキャリブレーションを行う方法を整理した資料です。*
+*キャリブレーションボードを使用せずにMMS全周映像とLiDAR点群を使用してダッシュカム(コムテック ドライブレコーダー HDR204G)のレンズキャリブレーションを行う方法を整理した資料です。*
 
 ![Best result: frame 00374 photo vs. point-cloud render comparison after ref_topk=8](readme_images/fig01.gif)
 
