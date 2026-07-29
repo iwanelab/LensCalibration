@@ -459,6 +459,7 @@ python run_calibration_pipeline_roadmatch.py \
 | `--road_match_max_kpts` | -1(無制限) | StepA用ALIKEDの最大検出点数 |
 | `--road_match_aliked_threshold` | 0.05 | StepA用ALIKED検出感度(高速化検証の結果、精度を落とさず速度が改善したため0.01から変更) |
 | `--road_match_metric_tol` | 0.3 | StepDの許容誤差(実距離スケール、点の depth に応じてpxへ換算) |
+| `--road_match_tol_px` | 80.0 | StepDの許容誤差を固定ピクセル数で指定する場合のフォールバック(`--road_match_metric_tol`を0以下にした場合のみ使われる) |
 | `--road_match_ref_topk` | 8 | StepAで独立に試す参照画像の枚数(ray-alignment上位K枚) |
 | `--road_match_roi_frac` | 0.5 | 画像下部(路面)領域をエピポーラRANSACから除外する範囲 |
 | `--road_weight` | 2.0 | Stage7対応点の重み。最適化計算での優先度と、候補選抜からの除外免除を兼ねる |
