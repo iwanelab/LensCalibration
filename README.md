@@ -170,7 +170,7 @@ Stage3の直接マッチング(参照画像とはまるで異なる視点から�
 
 ![All features/lines extracted from 00001.jpg alone, regardless of match success](readme_images/fig15.png)
 
-***図15** — `00001.jpg`単体から抽出された全件(緑=ALIKED特徴点n=2048、赤=paint線分、マゼンタ=other線分、統合3D直線592本)。マッチの成否は問わない。ALIKED特徴点は建物・樹木・路面全体に広がっているが、線分は路面点群と重なる範囲にしか元々検出されない*
+***図15** — `00001.jpg`単体から抽出された全件(緑=ALIKED特徴点n=2048、赤=paint線分・マゼンタ=other線分の統合3D直線734本(paint186/other548)、いずれも実際の線分マッチングで使われたのと同じStage4時点のカメラパラメータで計算)。マッチの成否は問わない。ALIKED特徴点は建物・樹木・路面全体に広がっているが、線分は路面点群と重なる範囲にしか元々検出されない*
 
 ![Only the features/lines that actually matched a reference image](readme_images/fig16.png)
 
